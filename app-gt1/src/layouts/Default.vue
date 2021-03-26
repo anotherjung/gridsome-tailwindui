@@ -7,34 +7,32 @@
           <div class="flex items-center justify-between h-16">
             <div class="flex items-center">
               <div class="flex-shrink-0">
+                <g-link to="/"
+                    class="px-3 py-2 rounded-md text-sm font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700">
                 <img
                   class="h-8 w-8"
                   src="https://tailwindui.com/img/logos/workflow-mark-indigo-400.svg"
                   alt="Workflow logo"
                 >
+                </g-link>
               </div>
               <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline">
-                  <a
-                    href="#"
+                  <g-link to="/about/"
                     class="px-3 py-2 rounded-md text-sm font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700"
-                  >Dashboard</a>
-                  <a
-                    href="#"
+                  >Dashboard</g-link>
+                  <g-link to="/about/"
                     class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                  >Team</a>
-                  <a
-                    href="#"
+                  >Team</g-link>
+                  <g-link to="/about/"
                     class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                  >Projects</a>
-                  <a
-                    href="#"
+                  >Projects</g-link>
+                  <g-link to="/about/"
                     class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                  >Calendar</a>
-                  <a
-                    href="#"
+                  >Calendar</g-link>
+                  <g-link to="/about/"
                     class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                  >Reports</a>
+                  >Reports</g-link>
                 </div>
               </div>
             </div>
@@ -89,21 +87,18 @@
                         aria-orientation="vertical"
                         aria-labelledby="user-menu"
                       >
-                        <a
-                          href="#"
+                        <g-link to="/about/"
                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           role="menuitem"
-                        >Your Profile</a>
-                        <a
-                          href="#"
+                        >Your Profile</g-link>
+                        <g-link to="/about/"
                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           role="menuitem"
-                        >Settings</a>
-                        <a
-                          href="#"
+                        >Settings</g-link>
+                        <g-link to="/about/"
                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           role="menuitem"
-                        >Sign out</a>
+                        >Sign out</g-link>
                       </div>
                     </div>
                   </transition>
@@ -148,26 +143,21 @@
         </div>
         <div :class="[isOpen ? '' : 'hidden', 'md:hidden']">
           <div class="px-2 pt-2 pb-3 sm:px-3">
-            <a
-              href="#"
+            <g-link to="/about/"
               class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700"
-            >Dashboard</a>
-            <a
-              href="#"
+            >Dashboard</g-link>
+            <g-link to="/about/"
               class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-            >Team</a>
-            <a
-              href="#"
+            >Team</g-link>
+            <g-link to="/about/"
               class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-            >Projects</a>
-            <a
-              href="#"
+            >Projects</g-link>
+            <g-link to="/about/"
               class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-            >Calendar</a>
-            <a
-              href="#"
+            >Calendar</g-link>
+            <g-link to="/about/"
               class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-            >Reports</a>
+            >Reports</g-link>
           </div>
           <div class="pt-4 pb-3 border-t border-gray-700">
             <div class="flex items-center px-5">
@@ -184,18 +174,15 @@
               </div>
             </div>
             <div class="mt-3 px-2">
-              <a
-                href="#"
+              <g-link to="/about/"
                 class="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-              >Your Profile</a>
-              <a
-                href="#"
+              >Your Profile</g-link>
+              <g-link to="/about/"
                 class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-              >Settings</a>
-              <a
-                href="#"
+              >Settings</g-link>
+              <g-link to="/about/"
                 class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-              >Sign out</a>
+              >Sign out</g-link>
             </div>
           </div>
         </div>
@@ -207,7 +194,7 @@
         </div>
       </header>
 
-      </slot>
+      <slot></slot>
     </div>
   </div>
 </template>
