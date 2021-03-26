@@ -8,7 +8,7 @@
             <div class="flex items-center">
               <div class="flex-shrink-0">
                 <g-link to="/"
-                    class="px-3 py-2 rounded-md text-sm font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700">
+                    class="">
                 <img
                   class="h-8 w-8"
                   src="https://tailwindui.com/img/logos/workflow-mark-indigo-400.svg"
