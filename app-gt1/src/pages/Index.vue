@@ -1,19 +1,17 @@
 <template>
   <Layout>
 
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
 
-    <h1>Hello, world!</h1>
+      <main>
+        <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+          <!-- Replace with your content -->
+          <div class="px-4 py-6 sm:px-0">
+            <div class="border-4 border-dashed border-gray-200 rounded-lg h-96"></div>
+          </div>
+          <!-- /End replace -->
+        </div>
+      </main>
 
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
 
   </Layout>
 </template>
@@ -26,8 +24,3 @@ export default {
 }
 </script>
 
-<style>
-.home-links a {
-  margin-right: 1rem;
-}
-</style>
